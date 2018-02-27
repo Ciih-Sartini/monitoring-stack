@@ -22,4 +22,11 @@ Grafana - Instalação e configuração inicial
         systemctl enable grafana-server
         systemctl start grafana-server
         
- 
+##### Opcional - Alterar porta do grafana para 80
+
+1. No arquivo /etc/grafana/grafana.ini adicionar/alterar a configuração http_port=80 no bloco **[server]**
+
+2. Executar o comando
+
+        setcap 'cap_net_bind_service=+ep' /usr/sbin/grafana-server
+
