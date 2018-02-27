@@ -1,6 +1,6 @@
 Grafana - Instalação e configuração inicial
 
-Adicionar o `repositório` do Grafana
+1. Adicionar o repositório do Grafana
 
     echo '[grafana]
     name=grafana
