@@ -1,6 +1,7 @@
 Grafana - Instalação e configuração inicial
 
 Adicionar o repositório do Grafana
+
   echo '[grafana]
   name=grafana
   baseurl=https://packagecloud.io/grafana/stable/el/6/$basearch
